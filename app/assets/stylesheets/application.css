@@ -24,6 +24,7 @@ Description:    Resets default styling of common browsers to a common base
 */
 
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300,400italic);
+@import url(http://fonts.googleapis.com/css?family=Maven+Pro);
 ul, ol {
   list-style: none;
 }
