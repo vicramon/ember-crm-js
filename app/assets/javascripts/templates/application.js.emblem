@@ -1,1 +1,8 @@
-h1 Hello world
+header
+  article
+    .logo
+      h1
+        a href="#" Ember CRM
+
+section#main
+  = outlet
