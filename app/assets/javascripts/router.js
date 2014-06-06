@@ -4,5 +4,5 @@ App.Router.reopen({
 })
 
 App.Router.map(function() {
-  // this.resource('posts');
+  this.resource('leads', { path: '/' })
 });
