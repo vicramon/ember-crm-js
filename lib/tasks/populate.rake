@@ -14,7 +14,7 @@ namespace :db do
         email: Faker::Internet.email,
         phone: Faker::PhoneNumber.phone_number,
         status: random_status,
-        notes: Faker::Lorem.paragraph(2)
+        notes: Faker::HipsterIpsum.words(10).join(" ")
         )
     end
 

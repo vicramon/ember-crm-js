@@ -29,7 +29,7 @@ gem 'ember-rails'
 gem 'ember-source'
 gem 'emblem-rails'
 
-gem 'faker'
+gem 'ffaker'
 
 gem 'puma'
 # Use ActiveModel has_secure_password
