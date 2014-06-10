@@ -11,3 +11,7 @@ App.Lead = DS.Model.extend({
   }.property('firstName', 'lastName'),
 
 })
+
+App.Lead.reopenClass({
+  STATUSES: ['new', 'in progress', 'closed', 'bad']
+});

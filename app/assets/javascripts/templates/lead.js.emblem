@@ -12,3 +12,20 @@ article#lead
   p
     ' Phone:
     model.phone
+
+  p
+    label Status:
+    '
+    view Ember.Select content=App.Lead.STATUSES value=model.status
+
+  p
+    label Notes:
+    br
+    view Ember.TextArea value=model.notes
+
+  p
+    input type='submit' value='Save Changes' click='saveChanges'
+    if showUnsavedMessage
+      .unsaved unsaved changes
+    if isSaving
+      .saving saving...
