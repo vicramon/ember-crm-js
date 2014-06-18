@@ -10,6 +10,6 @@ App.LeadsController = Ember.ArrayController.extend({
     return this.filter(function(lead) {
       return lead.get('fullName').toLowerCase().indexOf(search) != -1
     })
-  }.property('search', 'this.each.fullName')
+  }.property('search', 'this.@each.fullName')
 
 })
