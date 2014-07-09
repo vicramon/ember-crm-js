@@ -1,6 +1,4 @@
-App.LeadController = Ember.ObjectController.extend({
-
-  isEditing: false,
+App.LeadIndexController = Ember.ObjectController.extend({
 
   showUnsavedMessage: function() {
     return this.get('isDirty') && !this.get('isSaving')
