@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'coffee-rails', '~> 4.1'
 gem 'ember-rails'
-gem 'ember-source'
+gem 'ember-source', '~> 1.8.1'
 gem 'emblem-rails'
 gem 'ffaker'
 gem 'jbuilder', '~> 2.0'
