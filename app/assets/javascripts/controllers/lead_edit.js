@@ -6,7 +6,7 @@ App.LeadEditController = Ember.ObjectController.extend({
       var self = this;
       this.get('model').save().then(function() {
         self.transitionToRoute('lead');
-      })
+      });
     },
 
     cancel: function() {
@@ -16,4 +16,4 @@ App.LeadEditController = Ember.ObjectController.extend({
 
   }
 
-})
+});

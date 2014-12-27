@@ -1,7 +1,7 @@
 App.LeadIndexController = Ember.ObjectController.extend({
 
   showUnsavedMessage: function() {
-    return this.get('isDirty') && !this.get('isSaving')
+    return this.get('isDirty') && !this.get('isSaving');
   }.property('isDirty', 'isSaving'),
 
   actions: {
@@ -18,4 +18,4 @@ App.LeadIndexController = Ember.ObjectController.extend({
     }
   }
 
-})
+});
