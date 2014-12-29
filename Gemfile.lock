@@ -30,7 +30,7 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     arel (5.0.1.20140414130214)
-    barber (0.5.0)
+    barber (0.6.0)
       ember-source
       execjs
       handlebars-source (>= 1.0.0.rc.4)
@@ -48,9 +48,9 @@ GEM
     coffee-script-source (1.8.0)
     ember-data-source (1.0.0.beta.14)
       ember-source
-    ember-rails (0.15.1)
+    ember-rails (0.16.0)
       active_model_serializers
-      barber (>= 0.4.1)
+      barber (>= 0.6.0)
       ember-data-source (>= 1.0.0.beta.5)
       ember-source (>= 1.1.0)
       execjs (>= 1.2)
