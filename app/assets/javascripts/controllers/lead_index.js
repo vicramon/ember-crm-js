@@ -4,6 +4,10 @@ App.LeadIndexController = Ember.ObjectController.extend({
     return this.get('isDirty') && !this.get('isSaving');
   }.property('isDirty', 'isSaving'),
 
+  STATUSES: function(){
+    return App.Lead.STATUSES;
+  }.property(),
+
   actions: {
 
     delete: function() {

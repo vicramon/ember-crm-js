@@ -20,7 +20,7 @@ article#lead
   p
     label Status:
     '
-    = view 'select' content=App.Lead.STATUSES value=model.status
+    = view 'select' content=STATUSES value=model.status
 
   p
     label Notes:
