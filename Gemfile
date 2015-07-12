@@ -13,7 +13,7 @@ gem 'pry-rails'
 gem 'puma'
 gem 'rails', '~> 4.1.12'
 gem 'rails_12factor', group: :production
-gem 'sass-rails', '~> 5.0.3'
+gem 'sass-rails', '~> 4.0.5' # Must this version as ember-rails 0.16.4 require
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring', group: :development, platforms: :ruby
 gem 'uglifier'
