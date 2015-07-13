@@ -28,7 +28,7 @@ article#lead
     = textarea value=model.notes
 
   p
-    a.delete href='#' click="delete" delete
+    a.delete href='#' click="destroy" delete
     input type='submit' value='Save Changes' click='saveChanges'
     if showUnsavedMessage
       .unsaved unsaved changes
