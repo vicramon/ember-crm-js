@@ -10,7 +10,7 @@ App.LeadEditController = Ember.Controller.extend({
     },
 
     cancel: function() {
-      this.get('model').rollback();
+      this.get('model').rollbackAttributes();
       this.transitionToRoute('lead');
     }
 
