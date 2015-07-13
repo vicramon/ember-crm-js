@@ -1,4 +1,4 @@
-App.LeadEditController = Ember.ObjectController.extend({
+App.LeadEditController = Ember.Controller.extend({
 
   actions: {
 
