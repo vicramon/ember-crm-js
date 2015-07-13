@@ -14,6 +14,8 @@ GEM
       activesupport (= 4.1.12)
       builder (~> 3.1)
       erubis (~> 2.7.0)
+    active-model-adapter-source (1.13.3)
+      ember-data-source (>= 1.13, < 3.0)
     active_model_serializers (0.9.3)
       activemodel (>= 3.2)
     activemodel (4.1.12)
@@ -51,11 +53,12 @@ GEM
       barber (>= 0.9.0)
       sprockets (>= 2.1, < 3.3)
       tilt
-    ember-rails (0.18.3)
+    ember-rails (0.19.0)
+      active-model-adapter-source (>= 1.13.0)
       active_model_serializers
-      ember-data-source (>= 1.0.0.beta.5)
+      ember-data-source (>= 1.13.0)
       ember-handlebars-template (>= 0.1.1, < 1.0)
-      ember-source (>= 1.1.0)
+      ember-source (>= 1.8.0)
       jquery-rails (>= 1.0.17)
       railties (>= 3.1)
     ember-source (1.11.3.1)
@@ -159,7 +162,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 4.1)
   ember-emblem-template
-  ember-rails (~> 0.18.3)
+  ember-rails (~> 0.19.0)
   ember-source (~> 1.11.3.1)
   emblem-source (~> 0.4)
   ffaker
