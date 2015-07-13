@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 
 gem 'coffee-rails', '~> 4.1'
-gem 'ember-rails', '~> 0.16.4'
+gem 'ember-rails', '~> 0.18.3'
 gem 'ember-source', '~> 1.9.1'
-gem 'emblem-rails'
+gem 'ember-emblem-template'
 gem 'emblem-source', '~> 0.4'
 gem 'ffaker'
 gem 'jbuilder', '~> 2.0'
