@@ -61,7 +61,7 @@ GEM
       ember-source (>= 1.8.0)
       jquery-rails (>= 1.0.17)
       railties (>= 3.1)
-    ember-source (1.11.3.1)
+    ember-source (1.12.1)
     emblem-source (0.4.0)
     erubis (2.7.0)
     execjs (2.5.2)
@@ -163,7 +163,7 @@ DEPENDENCIES
   coffee-rails (~> 4.1)
   ember-emblem-template
   ember-rails (~> 0.19.0)
-  ember-source (~> 1.11.3.1)
+  ember-source (~> 1.12.1)
   emblem-source (~> 0.4)
   ffaker
   jbuilder (~> 2.0)
