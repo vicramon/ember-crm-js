@@ -1,8 +1,10 @@
 source 'https://rubygems.org'
 
 gem 'coffee-rails', '~> 4.1'
-gem 'ember-rails', '~> 0.19.0'
+gem 'ember-rails', '~> 0.19.2'
 gem 'ember-source', '~> 1.12.1'
+gem 'ember-data-source', '~> 1.13.11'
+gem 'active-model-adapter-source', '~> 1.13.6'
 gem 'ember-emblem-template'
 gem 'emblem-source', '~> 0.4'
 gem 'ffaker'
@@ -14,7 +16,7 @@ gem 'puma'
 gem 'rails', '~> 4.1.12'
 gem 'rails_12factor', group: :production
 gem 'sass-rails', '~> 5.0.3'
-gem 'sdoc', '~> 0.4.0',          group: :doc
+gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'spring', group: :development, platforms: :ruby
 gem 'uglifier'
 
