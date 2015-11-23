@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'coffee-rails', '~> 4.1'
 gem 'ember-rails', '~> 0.19.2'
 gem 'ember-source', '~> 1.12.1'
-gem 'ember-data-source', '~> 1.13.11'
+gem 'ember-data-source', '~> 1.13.15'
 gem 'active-model-adapter-source', '~> 1.13.6'
 gem 'ember-emblem-template'
 gem 'emblem-source', '~> 0.4'
@@ -13,7 +13,7 @@ gem 'jquery-rails'
 gem 'pg'
 gem 'pry-rails'
 gem 'puma'
-gem 'rails', '~> 4.1.12'
+gem 'rails', '~> 4.1.14'
 gem 'rails_12factor', group: :production
 gem 'sass-rails', '~> 5.0.3'
 gem 'sdoc', '~> 0.4.0', group: :doc
@@ -22,4 +22,4 @@ gem 'uglifier'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
-gem 'nokogiri', '~> 1.6.7.rc3'
+gem 'nokogiri', '~> 1.6.7.rc4'
