@@ -24,10 +24,6 @@ default: &default
 development:
   <<: *default
   database: ember-crm-js_development
-<% if Gem.win_platform? %>
-  username: ember-crm-js_development
-  password: only_need_in_windows
-<% end %>
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
