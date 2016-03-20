@@ -13,7 +13,7 @@ gem 'jquery-rails'
 gem 'pg'
 gem 'pry-rails'
 gem 'puma'
-gem 'rails', '~> 4.1.14'
+gem 'rails', '~> 4.1.15'
 gem 'rails_12factor', group: :production
 gem 'sass-rails', '~> 5.0.3'
 gem 'sdoc', '~> 0.4.0', group: :doc
