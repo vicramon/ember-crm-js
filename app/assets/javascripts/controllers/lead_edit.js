@@ -1,4 +1,4 @@
-App.LeadEditController = Ember.ObjectController.extend({
+App.LeadEditController = Ember.Controller.extend({
 
   actions: {
 
@@ -6,14 +6,14 @@ App.LeadEditController = Ember.ObjectController.extend({
       var self = this;
       this.get('model').save().then(function() {
         self.transitionToRoute('lead');
-      })
+      });
     },
 
     cancel: function() {
-      this.get('model').rollback();
+      this.get('model').rollbackAttributes();
       this.transitionToRoute('lead');
     }
 
   }
 
-})
+});
